@@ -3,7 +3,6 @@
 DATE=$(date +%Y%m%d_%H%M)
 FULL_DIR="/var/backups/mysql/full"
 INCR_DIR="/var/backups/mysql/incremental"
-GDRIVE_FOLDER_ID="1Ong6K70XyTYKoRP1utXbh06t3xOwJ6Xy"
 
 mkdir -p "$FULL_DIR" "$INCR_DIR"
 
